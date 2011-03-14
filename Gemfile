@@ -25,5 +25,6 @@ group :test do
   gem "rspec", ">=2.0.0"
   gem "autotest"
 
-  gem "em-spec",       :git => "https://github.com/tmm1/em-spec.git"
+  # gem "em-spec",       :git => "https://github.com/tmm1/em-spec.git"
+  gem "evented-spec", :path => "vendor/evented-spec"
 end

@@ -1,16 +1,13 @@
-GIT
-  remote: https://github.com/tmm1/em-spec.git
-  revision: 3fd70d89f46ee5d6c55b38055a670cf5ab06910b
-  specs:
-    em-spec (0.1.3)
-      bacon (>= 1.1.0)
-      eventmachine (>= 0.12.6)
-      rspec (>= 1.1.12)
-
 PATH
   remote: vendor/amq-protocol
   specs:
     amq-protocol (0.0.1)
+
+PATH
+  remote: vendor/evented-spec
+  specs:
+    evented-spec (0.4.0)
+      bundler (>= 1.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -19,7 +16,6 @@ GEM
     ZenTest (4.5.0)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
-    bacon (1.1.0)
     contributors (0.1.1)
     cool.io (1.0.0)
       iobuffer (>= 0.1.3)
@@ -48,7 +44,7 @@ DEPENDENCIES
   autotest
   contributors
   cool.io
-  em-spec!
+  evented-spec!
   eventmachine (= 0.12.10)
   nake
   rspec (>= 2.0.0)
